@@ -64,9 +64,12 @@ const removeFavouriteMovie = (movie)=>{
       </div>
       <SearchBox searchValue= {searchValue} setSearchValue = {setSearchValue}/>
       </div>
-      <div className='movies'>
+      
+          <div className='movies'>
           <MovieList movies = {movies} handleFavouriteClick={addFavouriteMovie} favouriteComponent={AddFavourites}/>
       </div>
+          
+      
       </div> 
       <div className='red-separetor'></div> 
       <div className=" row d-flex align-items-center m-3">
